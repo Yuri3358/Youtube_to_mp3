@@ -5,7 +5,7 @@ Finalidade do programa <br>
   -> Aprender um pouco mais sobre o tkinter (criação de interface e, principalmente, a vasta quantidade de widgets); <br>
   -> Facilitar meu trabalho em atividades de cunho pessoal (quando eu "terminar" o desenvolvimento).<br>
                        
-Dados 
+Dados <br>
   -> ID do vídeo: Os últimos códigos que compôe o link de todo os vídeos do youtube (Ex.: www.youtube.com/watch?v=l3zAqQacTGA onde o ID é l3zAqQacTGA. <br>
  
 Futuro <br>
