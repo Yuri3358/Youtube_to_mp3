@@ -8,7 +8,7 @@ Finalidade do programa <br>
 Dados 
   -> ID do vídeo: Os últimos códigos que compôe o link de todo os vídeos do youtube (Ex.: www.youtube.com/watch?v=l3zAqQacTGA onde o ID é l3zAqQacTGA. <br>
  
-Futuro
-  -> Pretendo refazer este projeto em javascript assim como os outros em andamento.
+Futuro <br>
+  -> Pretendo refazer este projeto em javascript assim como os outros em andamento. <br>
 
 ***OBS.: Não apoio pirataria, isso é para fins de aprendizado!! ~~Só apoio pirataria contra empresas grandes~~***. <br>
