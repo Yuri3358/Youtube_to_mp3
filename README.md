@@ -1,4 +1,4 @@
 # Youtube_to_mp4
-Testando pytube
+Testando pytube e explorando um pouco mais sobre o tkinter
 
-Favor não criticar 👍
+fanático de javascript por obséquio não se meta :face_with_monocle:.
