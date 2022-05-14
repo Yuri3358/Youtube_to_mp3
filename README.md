@@ -1,4 +1,4 @@
-# Youtube_to_mp4
+# Youtube_to_mp3
 
 Finalidade do programa <br>
   -> Explorar o módulo pytube (responsável por consumir uma API própria que pega detalhes de um vídeo, incluindo ele próprio); <br>
