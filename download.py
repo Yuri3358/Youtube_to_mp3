@@ -1,11 +1,13 @@
 
+from hashlib import new
 from tkinter.filedialog import askdirectory
 from pytube import YouTube as Yt
 from moviepy.editor import *
 import os
 
-def baixar(id, labelmessage):
+def baixar(id, title, labelmessage):
             code = id.get()
+            filetitle = str(title.get())
             dto = askdirectory()
             link = str(code)
 
@@ -18,15 +20,16 @@ def baixar(id, labelmessage):
             audio_video = video_mp4.streams.get_audio_only()
             
             try:
-                midea_dir = dto + f'/{video_mp4.title}'
-                audio_video.download(output_path=f'{dto}')
+
+                midea_dir = dto +  f"/{filetitle}"
+                audio_video.download(output_path=f'{dto}', filename=f'{filetitle}.mp4')
                 video = AudioFileClip(midea_dir + '.mp4')
                 video.write_audiofile(midea_dir +'.mp3')
                 os.remove(midea_dir + '.mp4')
                 os.system("cls")
 
             except Exception as e:
-                labelmessage['text'] = "Algo está errado, cheque o ID/link do vídeo" #verificar exceção
+                labelmessage['text'] = "Algo está errado, cheque o ID/link do vídeo"
                 print(e)
 
             else: 
