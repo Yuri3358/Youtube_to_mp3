@@ -1,5 +1,3 @@
-
-from hashlib import new
 from tkinter.filedialog import askdirectory
 from pytube import YouTube as Yt
 from moviepy.editor import *
